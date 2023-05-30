@@ -6,14 +6,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main( void ){
-
-char c;
-
-for( c = 'a'; c <= 'z'; c++ )
+int main(void)
 {
-   putchar(c);
-}
-   putchar('\n');
-return(0);
+    char c;
+
+    for(c = 'a'; c <= 'z'; c++)
+    {
+putchar(c);
+    }
+putchar('\n');
+    return (0);
 }

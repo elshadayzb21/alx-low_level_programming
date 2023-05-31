@@ -1,0 +1,6 @@
+#ifndef 1-ALPHABET_H_INCLUDED
+#define 1-ALPHABET_H_INCLUDED
+
+
+
+#endif // 1-ALPHABET_H_INCLUDED

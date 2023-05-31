@@ -1,18 +1,19 @@
-#include <stdlib.h>
-#include <stdio.h>
-
+#include "main.h"
 /**
- * this is a code for functions with nested loops 
- * 
- */
-
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-    char a[] = "_putchar";
-    for (int i = 0 ; i <= sizeof(a); i++)
-    {
-       putchar(a[i]);
-    }
-    putchar('\n');
-    return (0);
+	char a[] = "_putchar";
+
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+        putchar(a[c]);
+	}
+        putchar('\n');
+	return (0);
 }

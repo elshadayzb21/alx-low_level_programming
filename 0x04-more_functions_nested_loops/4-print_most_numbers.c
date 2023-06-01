@@ -3,16 +3,16 @@
 
 /**
  * print_numbers - Print numbers between 0 to 9 incl.
- *@c : an integer variable
+ *@i : an integer variable
  * Return: Void.
  */
 void print_most_numbers(void)
 {
-    int c;
-    for (c = 0; c <= 9; c++;)
+    int i;
+    for (i = 0; i <= 9; i++;)
     {
-        if (c != 2 && c != 4)
-            _putchar(c + '0');
+        if (i != 2 && i != 4)
+            _putchar(i + '0');
     }
     _putchar('\n');
 }

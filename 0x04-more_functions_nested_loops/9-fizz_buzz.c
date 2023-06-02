@@ -11,23 +11,24 @@ int main(void)
 {
     int x;
 
-    for( x = 1; x < 101; x++)
+    for (x = 1; x < 101; x++)
     {
-        if (x%3 == 0)
+        if (x % 3 == 0)
         {
-            _putchar('Fizz');
+            _putchar('Fizz ');
         }
-        else if( x%5 == 0)
+        else if (x % 5 == 0)
         {
-            _putchar('Buzz');
+            _putchar('Buzz ');
         }
-        else if ( x%3 && x%5 == 0)
+        else if (x % 3 && x % 5 == 0)
         {
-            _putchar('FizzBuzz')
+            _putchar('FizzBuzz ');
         }
-        else 
+        else
         {
-            _putchar(x + '0');
+            printf("%d ")
         }
     }
+    return (0);
 }

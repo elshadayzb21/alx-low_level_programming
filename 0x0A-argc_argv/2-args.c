@@ -8,7 +8,12 @@
  * Return: Always o.
  */
 
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int argc, char * argv[])
 {
+    for (int i = 0; i <= argc-1; i++)
+    {
+        printf("%s\n", argv[i]);
+    }
     
+    return (0);
 }

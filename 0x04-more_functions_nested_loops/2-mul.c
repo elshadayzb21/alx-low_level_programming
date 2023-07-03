@@ -2,13 +2,12 @@
 #include <stdio.h>
 
 /**
-* mul - to check if the multiplication is carried on
-* @a: the first parameter
-* @b: the second parameter
-* return - return depending on the value
-*/
-
+ * mul - Multiply 2 integers.
+ * @a: An integer to be multiplied with b
+ * @b : An integer to be multipled with a
+ * Return: Return the result of the multiplication
+ */
 int mul(int a, int b)
 {
-    return (a * b);
+	return (a * b);
 }

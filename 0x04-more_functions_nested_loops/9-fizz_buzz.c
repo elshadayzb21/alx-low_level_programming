@@ -32,11 +32,10 @@ int main(void)
 
 		if (x != 100)
 		{
-			printf(" ");
+		printf(" ");
 		}
 		x++;
 	}
 	printf("\n");
-
 	return (0);
 }

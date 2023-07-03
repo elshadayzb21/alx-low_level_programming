@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all single digit numbers starting from 0
+ * main - print numbers 0-9 without using printf
  *
  * Return: 0 (Success)
  */
@@ -18,3 +18,4 @@ int main(void)
 
 	return (0);
 }
+

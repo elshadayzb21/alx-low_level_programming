@@ -12,8 +12,8 @@ int main(void)
 
 	for (c = 0; c < 8; c++)
 	{
-        putchar(a[c]);
+		_putchar(a[c]);
 	}
-        putchar('\n');
+	_putchar('\n');
 	return (0);
 }

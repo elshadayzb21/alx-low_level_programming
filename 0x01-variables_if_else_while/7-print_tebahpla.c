@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print all single digit numbers starting from 0
+ * main - print lowercase alphabets in reverse
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char n;
+	char c;
 
-	for (n = 'z'; n >= 'a' ; n--)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(n);
+		putchar(c);
 	}
 	putchar('\n');
 
